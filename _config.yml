@@ -3,7 +3,7 @@ locales:
     menu:
       info: Info
       howto: How-To
-      sticker: Aufkleber
+      sticker: Sticker
       lang: Language
     info:
       title: What is LibreBike?
@@ -48,7 +48,7 @@ locales:
     menu:
       info: Info
       howto: How-To
-      sticker: Sticker
+      sticker: Aufkleber
       lang: Sprache
     info:
       title: Was ist LibreBike?
