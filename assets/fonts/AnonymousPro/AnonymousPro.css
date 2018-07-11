@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(AnonymousPro-Regular.ttf);
+}
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(AnonymousPro-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(AnonymousPro-Italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(AnonymousPro-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}

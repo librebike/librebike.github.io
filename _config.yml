@@ -1,0 +1,91 @@
+locales:
+  en:
+    menu:
+      info: Info
+      howto: How-To
+      sticker: Aufkleber
+      lang: Language
+    info:
+      title: What is LibreBike?
+      text: Lately, a wave of yellow bikes from China has been crashing over the cities of this planet, bringing shitty steel constructions into every corner of the world. But what do these bikes do? Are they here to improve the mobility of urban populations or to track their every move? Will they be used for a long time and regularly repaired, or will they be thrown away once they start crumbling? Do we actually need privatized bike-sharing in our cities?
+      text1: As <a href="https://news.ycombinator.com/item?id=17435020" target="_blank">reports</a> <a href="https://www.tagesspiegel.de/berlin/verkehr-in-berlin-leihfahrradanbieter-obike-meldet-insolvenz-an/22788156.html" target="_blank">are starting</a> <a href="https://derstandard.at/2000083096681/Obike-angeblich-vor-Pleite-tausend-herrenlose-Fahrraeder-in-Wien" target="_blank">to pile up</a>, that oBike – one of these bike-sharing startups – is shutting down (and taking millions in deposits paid by their users with them), it is important to think about a new way to use these bikes.
+      text2: LibreBike is here exactly for this reason – to change the whole thinking behind bike-sharing. What if you wouldn't have to pay for the bikes? What if bikes where simply public goods, to be used by everyone? Turns out, in just five easy steps, every oBike can be made into a LibreBike – a bike for everyone!
+    about:
+      title: About LibreBike
+      text: LibreBike is an independent project by anonymous urbanists that aims to add free and open transit options to urban populations. We encourage <i>you</i> to start liberating bikes in your city to enable the people around you to use more sustainable and equitable means of transport.
+      text1: LibreBike is inspired by the <a href="https://dangerousminds.net/comments/the_white_bicycle_revolution" target="_blank">"White Bike Plan"</a>, an anarchic free transport programme initiated by the Dutch counter culture movement <i>Provos</i> in the 1960s. While their initiative inspired city councils around the global to initiate Public Use Bicycle systems, the core vision of free-to-use, self-regulating and free-floating bike transit replacing cars in cities has hardly been accomplished. We hope that LibreBike can be a new push in this direction to rethink urban transport.
+    video:
+      caption: <a href="https://vimeo.com/20783245">White Bikes</a> from <a href="https://vimeo.com/nva">NVA</a> on <a href="https://vimeo.com">Vimeo</a>.
+    howto:
+      borrow:
+        title: How do I use a LibreBike?
+        step: Just start biking – no&nbsp;locks, no&nbsp;tracking, no&nbsp;worries!
+        disclaimer: "Disclaimer: LibreBikes are meant to be shared freely with everyone and we don't support stealing any bicycles! After borrowing a LibreBike, please: do not lock, break, or put the liberated bike out of reach for other people! Just leave it safely in a public space for the next person to use it."
+      liberate:
+        title: How do I start liberating oBikes?
+        step1:
+          title: Remove the solar panel
+          text: Use a screwdriver to pry it off – it takes some force!
+        step2:
+          title: Make a hole
+          text: Take a drill or soldering iron or anything else to poke a hole through the plastic. You should be able to feel the edges of the metal below the plastic.
+        step3:
+          title: Open the lock
+          text: Push a chopstick into the hole, press it gently into the upper right corner (the corner facing the metal bar) and pull up to open the lever.
+        step4:
+          title: Make it permanent
+          text: Put the chopstick into the hole again and break it off, so that a piece of wood gets stuck inside the lock. This way, nobody will be able to lock the bike again.
+        step5:
+          title: Tell everyone
+          text: Make sure that people can see this bike has been liberated by putting stickers over the bike logos. You can download the LibreBike sticker designs <a href="#sticker">here</a>. Just print them on A4 sticker paper, put them over the bike frame and tell all your friends about LibreBike!
+    sticker:
+      title: Sticker
+      twosided: Frame sticker two-sided (A4)
+      onesided: Frame sticker one-sided (A4)
+      small: Small stickers (A4)
+    license: All LibreBike materials including this website and all self-made artwork on it are licensed under the <a href="https://github.com/librebike/librebike.github.io/blob/master/LICENSE" target="_blank">GNU General Public License v3.0</a>. Click <a href="https://github.com/librebike/librebike.github.io/blob/master/TRANSLATIONS.md">here</a> to help add translations. <a href="https://github.com/librebike/librebike.github.io" target="_blank">Source code</a>.
+  de:
+    menu:
+      info: Info
+      howto: How-To
+      sticker: Sticker
+      lang: Sprache
+    info:
+      title: Was ist LibreBike?
+      text: In letzter Zeit hat eine Welle von gelben Fahrrädern aus China die Städte dieses Planeten überrollt, und mit ihr erobern diese klapprigen Stahlkonstruktionen die Welt. Aber was machen diese Räder eigentlich? Sind sie hier um die Mobilität der urbanen Bevölkerungen zu verbessern, oder uns auf jedem Schritt zu überwachen? Werden sie lange Zeit genutzt und regelmäßig repariert werden, oder beim ersten Gebrechen weggeschmissen? Brauchen wir privatisiertes Bikesharing in unseren Städten überhaupt?
+      text1: Jetzt, da sich <a href="https://news.ycombinator.com/item?id=17435020" target="_blank">die</a> <a href="https://www.tagesspiegel.de/berlin/verkehr-in-berlin-leihfahrradanbieter-obike-meldet-insolvenz-an/22788156.html" target="_blank">Berichte</a> <a href="https://derstandard.at/2000083096681/Obike-angeblich-vor-Pleite-tausend-herrenlose-Fahrraeder-in-Wien" target="_blank">häufen</a>, dass oBike – eines dieser Bikesharing-Startups – zusperrt (und dabei Millionen der von Kund*innen bezahlten Kautionen den Bach runtergehen), ist es wichtig sich neue Wege auszudenken auf die diese Fahrräder genutzt werden können.
+      text2: Genau dafür ist LibreBike da. Was, wenn du nicht für's Benutzen von Fahrrädern zahlen müsstest? Wenn Fahrräder einfach ein öffentliches Gut wären, dafür da um von allen benutzt zu werden? In nur fünf einfachen Schritten wird jedes oBike zu einem LibreBike – einem Fahrrad für alle!
+    about:
+      title: Über LibreBike
+      text: LibreBike ist ein unabhängiges Projekt von anonymen Urbanist*innen, das darauf abzielt freie und offene öffentliche Transportmöglichkeiten für urbane Bevölkerungen zu erzeugen. Wir ermutigen <i>dich</i> damit anzufangen Fahrräder in deiner Stadt zu befreien, um den Leuten um dir herum nachhaltigere Formen von Transport zu ermöglichen.
+      text1: LibreBike ist inspiriert vom <a href="https://dangerousminds.net/comments/the_white_bicycle_revolution" target="_blank">"Weißen Fahrrad Plan"</a>, einem anarchistischem freien Transportprogramm der niederländischen Bewegung <i>Provos</i> in den 1960ern. Während diese Initiative später von Stadtverwaltungen überall auf der Welt aufgegriffen und als öffentliche Fahrradleihsysteme weiterentwickelt wurde, hat sich die Vision einer kostenlosen, selbst regulierenden Fahrradwelle, die das Auto in Städten ersetzt leider niemals erfüllt. Wir hoffen, dass LibreBike eine neuer Anstoß sein wird, um die Funktionsweise des urbanen Verkehrs radikal zu verändern.
+    video:
+      caption: <a href="https://vimeo.com/20783245">White Bikes</a> (auf Englisch) von <a href="https://vimeo.com/nva">NVA</a> auf <a href="https://vimeo.com">Vimeo</a>.
+    howto:
+      borrow:
+        title: Wie verwende ich ein LibreBike?
+        step: Fahr' einfach los – kein&nbsp;Schloss, kein&nbsp;Tracking, keine&nbsp;Sorgen!
+        disclaimer: "Disclaimer: LibreBikes sind dafür da mit allen geteilt zu werden – wir unterstützen keinen Diebstahl! Nachdem du dir ein LibreBike ausborgst, dann bitte: Verschließ' es nicht, zerstör' es nicht und bring' das Fahrrad nicht außer Reichweite von anderen! Lass' es einfach an einer sicheren Stelle im öffentlichen Raum stehen, damit die nächste Person es benutzen kann."
+      liberate:
+        title: Wie kann ich mit dem Befreien von oBikes anfangen?
+        step1:
+          title: Entferne das Solarpanel
+          text: Verwende einen Schraubenzieher, um das Solarpanel wegzubrechen – es braucht etwas Kraft!
+        step2:
+          title: Mach' ein Loch
+          text: Nimm einen Bohrer oder einen Lötkolben oder sonst irgendetwas, um ein Loch durch die Plastikabdeckung zu stoßen. Du solltest dabei die Kanten des darunterliegenden Lochs im Metallteil des Schlosses spüren können.
+        step3:
+          title: Öffne das Schloss
+          text: Drück' mit einem Essstäbchen in das Loch gefühlvoll in die linke untere Ecke (das Stäbchen sollte nach rechts in Richtung Sattel zeigen) und zieh' es dann heraus, um den Hebel zu lösen und damit das Schloss zu entriegeln.
+        step4:
+          title: Mach' es permanent
+          text: Steck' das Essstäbchen nochmal ins Loch und brich' es einfach ab, so dass ein Stückchen Holz im Schloss stecken bleibt. Dadurch lässt sich das Fahrrad nicht mehr verriegeln.
+        step5:
+          title: Lass' alle davon erfahren
+          text: Damit andere Leute erkennen können, dass es sich um ein LibreBike handelt, <a href="#sticker">lade das Stickerdesign herunter</a>, druck' die Sticker auf wasserfestes A4 Stickerpapier und überklebe damit die Logos am Rahmen des Fahrrads. Erzähl' all deinen Freunden davon, denn LibreBikes sind dafür da von allen benutzt zu werden.
+    sticker:
+      title: Aufkleber
+      twosided: Rahmen-Sticker beidseitig (A4)
+      onesided: Rahmen-Sticker einseitig (A4)
+      small: Kleine Aufkleber (A4)
+    license: Alle LibreBike Materialen inkl. dieser Website und aller selbstgemachten Inhalte darauf sind unter der <a href="https://github.com/librebike/librebike.github.io/blob/master/LICENSE" target="_blank">GNU General Public License v3.0</a> lizensiert. Klick' <a href="https://github.com/librebike/librebike.github.io/blob/master/TRANSLATIONS.md">hier</a>, um mitzuhelfen diese Seite zu übersetzen. <a href="https://github.com/librebike/librebike.github.io" target="_blank">Quellcode</a>.

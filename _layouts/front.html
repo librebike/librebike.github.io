@@ -1,0 +1,190 @@
+{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
+{% if locale == "" %}{% assign locale = "en" %}{% endif %}
+
+<!doctype html>
+<html lang="{{ locale }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="{{ '/assets/fonts/AnonymousPro/AnonymousPro.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/fonts/Poppins/Poppins.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+    <link rel="shortcut icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}"/>
+
+    <title>LibreBike</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <a href="/" class="title">
+          <img src="{{ '/assets/logo-image.svg' | relative_url }}" alt="LibreBike" />
+          <div class="title-text">
+            <h1>LibreBike</h1>
+            <p>Liberating oBikes since 2018</p>
+          </div>
+        </a>
+        <div class="menu">
+          <a href="#info">{{ site.locales[locale].menu.info }}</a>
+          <a href="#howto">{{ site.locales[locale].menu.howto }}</a>
+          <a href="#sticker">{{ site.locales[locale].menu.sticker }}</a>
+          <div class="lang">
+            <span>{{ site.locales[locale].menu.lang }}:</span>
+            <a href="/en">en</a>,
+            <a href="/de">de</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="info" id="info">
+          <h2>{{ site.locales[locale].info.title }}</h2>
+          <p>{{ site.locales[locale].info.text }}</p>
+          <p>{{ site.locales[locale].info.text1 }}</p>
+          <p>{{ site.locales[locale].info.text2 }}</p>
+
+          <hr />
+
+          <h2>{{ site.locales[locale].about.title }}</h2>
+          <p>{{ site.locales[locale].about.text }}</p>
+          <p>{{ site.locales[locale].about.text1 }}</p>
+
+          <a class="video-container" href="https://vimeo.com/20783245" target="_blank">
+            <img src="{{ '/assets/play.svg' | relative_url }}" alt="▶" />
+          </a>
+
+          <p class="caption">{{ site.locales[locale].video.caption }}</p>
+        </div>
+
+        <div class="howto" id="howto">
+          <div class="borrow">
+            <h2>{{ site.locales[locale].howto.borrow.title }}</h2>
+            <div><p class="borrow-step">{{ site.locales[locale].howto.borrow.step }}</p></div>
+            <p class="disclaimer">{{ site.locales[locale].howto.borrow.disclaimer }}</p>
+          </div>
+
+          <div class="liberate" id="liberate">
+            <h2>{{ site.locales[locale].howto.liberate.title }}</h2>
+            <div class="steps">
+              <div class="step">
+                <div>
+                  <h3>{{ site.locales[locale].howto.liberate.step1.title }}</h3>
+                  <p>{{ site.locales[locale].howto.liberate.step1.text }}</p>
+                </div>
+                <picture>
+                  <source srcset="{{ '/assets/steps/step1-remove-solar-panel.png' | relative_url }}" media="(min-width: 1920px)">
+                  <img src="{{ '/assets/steps/step1-remove-solar-panel.png' | relative_url }}">
+                </picture>
+              </div>
+              <hr />
+              <div class="step">
+                <div>
+                  <h3>{{ site.locales[locale].howto.liberate.step2.title }}</h3>
+                  <p>{{ site.locales[locale].howto.liberate.step2.text }}</p>
+                </div>
+                <picture>
+                  <source srcset="{{ '/assets/steps/200dpi/step2-make-hole.png' | relative_url }}" media="(min-width: 1920px)">
+                  <img src="{{ '/assets/steps/step2-make-hole.png' | relative_url }}">
+                </picture>
+              </div>
+              <hr />
+              <div class="step">
+                <div>
+                  <h3>{{ site.locales[locale].howto.liberate.step3.title }}</h3>
+                  <p>{{ site.locales[locale].howto.liberate.step3.text }}</p>
+                </div>
+                <picture>
+                  <source srcset="{{ '/assets/steps/200dpi/step3-open-lock.png' | relative_url }}" media="(min-width: 1920px)">
+                  <img src="{{ '/assets/steps/step3-open-lock.png' | relative_url }}">
+                </picture>
+              </div>
+              <hr />
+              <div class="step">
+                <div>
+                  <h3>{{ site.locales[locale].howto.liberate.step4.title }}</h3>
+                  <p>{{ site.locales[locale].howto.liberate.step4.text }}</p>
+                </div>
+                <picture>
+                  <source srcset="{{ '/assets/steps/200dpi/step4-open-permanent.png' | relative_url }}" media="(min-width: 1920px)">
+                  <img src="{{ '/assets/steps/step4-open-permanent.png' | relative_url }}">
+                </picture>
+              </div>
+              <hr />
+              <div class="step">
+                <div>
+                  <h3>{{ site.locales[locale].howto.liberate.step5.title }}</h3>
+                  <p>{{ site.locales[locale].howto.liberate.step5.text }}</p>
+                </div>
+                <picture>
+                  <source srcset="{{ '/assets/steps/200dpi/step5-sticker-share.png' | relative_url }}" media="(min-width: 1920px)">
+                  <img src="{{ '/assets/steps/step5-sticker-share.png' | relative_url }}">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sticker" id="sticker">
+          <h2>{{ site.locales[locale].sticker.title }}</h2>
+          <div class="items">
+            <a href="{{ '/assets/stickers/librebike-sticker-2pcs.pdf' | relative_url }}" class="item">
+              <img src="{{ '/assets/stickers/librebike-sticker-2pcs.svg' | relative_url }}" />
+              <p>{{ site.locales[locale].sticker.twosided }}</p>
+            </a>
+            <a href="{{ '/assets/stickers/librebike-sticker-3pcs.pdf' | relative_url }}" class="item">
+              <img src="{{ '/assets/stickers/librebike-sticker-3pcs.svg' | relative_url }}"/>
+              <p>{{ site.locales[locale].sticker.onesided }}</p>
+            </a>
+            <a href="{{ '/assets/stickers/librebike-sticker-misc.pdf' | relative_url }}" class="item">
+              <img src="{{ '/assets/stickers/librebike-sticker-misc.svg' | relative_url }}"/>
+              <p>{{ site.locales[locale].sticker.small }}</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p class="caption">{{ site.locales[locale].license }}</p>
+    </div>
+
+    <div class="video-overlay">
+      <iframe width="640" height="363" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <p class="caption">{{ site.locales[locale].video.caption }}</p>
+    </div>
+
+    <script>
+var availLang = ['en','de']
+var userLang = (navigator.language || navigator.userLanguage).split('-')[0]
+if (window.location.pathname === '/' && availLang.find(function(lang) { return userLang === lang })) {
+  window.location.href = '/' + userLang
+}
+
+var videoContainer = document.querySelector('a.video-container')
+var videoOverlay = document.querySelector('div.video-overlay')
+var videoIframe = document.querySelector('div.video-overlay > iframe')
+
+videoContainer.setAttribute('href', 'javascript: void(0)')
+videoContainer.removeAttribute('target')
+
+videoContainer.addEventListener('click', function() {
+  videoOverlay.style.display = 'flex'
+  videoIframe.setAttribute('src', 'https://player.vimeo.com/video/20783245?autoplay=1')
+  console.log('yolo')
+})
+
+videoIframe.addEventListener('load', function() {
+  if(videoIframe.getAttribute('src') === 'https://player.vimeo.com/video/20783245?autoplay=1') {
+    videoIframe.style.backgroundColor = 'transparent'
+  } else {
+    videoIframe.style.backgroundColor = '#ccc'
+  }
+})
+
+videoOverlay.addEventListener('click', function() {
+  videoOverlay.style.display = 'none'
+  videoIframe.setAttribute('src', 'about:blank')
+  videoIframe.removeAttribute('src')
+})
+    </script>
+  </body>
+</html>

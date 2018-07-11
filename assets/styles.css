@@ -1,0 +1,301 @@
+body {
+  width: 100%;
+  margin: 0;
+
+  font-family: "Anonymous Pro", monospace;
+}
+
+h1, h2, h3, div.step::before {
+  font-family: Poppins, "Source Sans Pro", Roboto, "Helvetica Neue", Arial, sans-serif;
+  word-spacing: 0.1em;
+  margin: 0;
+}
+
+a {
+  color: #888;
+}
+a:hover {
+  color: #333;
+}
+
+div.container {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+div.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em;
+}
+
+a.title {
+  display: flex;
+  flex: 1;
+  text-decoration: none;
+}
+a.title > img {
+  min-width: 6em;
+  max-height: 6em;
+}
+div.title-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1em;
+}
+div.title-text > h1 {
+  color: #000;
+  font-family: "Source Sans Pro", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+}
+div.title-text > p {
+  display: inline-block;
+  margin: 0 0 1em 0;
+  padding: 0.1em 0.2em;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+  white-space: nowrap;
+}
+
+div.menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+div.menu > * {
+  margin: 0.5em;
+}
+
+div.lang {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.main > div {
+  flex: 1;
+  margin: 1em;
+}
+
+div.info, div.borrow, div.liberate, div.sticker {
+  padding: 1em 2em;
+  border: 1px #ccc solid;
+  text-align: justify;
+}
+
+div.borrow {
+  margin-bottom: 1em;
+}
+div.borrow > div {
+  text-align: center;
+}
+div.borrow > div > p.borrow-step {
+  display: inline-block;
+  margin: 1em 0 0 0;
+  padding: 0.1em 0.2em;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+}
+
+div.borrow > p.disclaimer {
+  font-style: italic;
+}
+
+a.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/assets/video-thumb.jpg);
+  background-size: cover;
+  background-color: #ccc;
+  height: 0;
+  padding: 33% 0;
+}
+a.video-container > img {
+  text-align: center;
+  border-radius: 50%;
+  width: 5rem;
+  height: auto;
+  font-size: 3em;
+  line-height: 4rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+a.video-container:hover {
+  opacity: 0.8;
+  text-decoration: none !important;
+}
+
+p.caption {
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0.5em 0;
+}
+
+div.steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  counter-reset: steps;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 1em 1em;
+}
+
+div.step {
+  min-height: 10em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.step::before {
+  counter-increment: steps;
+  content: counter(steps);
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  color: #fff;
+  background-color: #000;
+  margin-right: 0.5em;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+div.step > div {
+  flex: 1;
+}
+
+div.step > div > h3 {
+  font-size: 1.2em;
+}
+div.step > div > p {
+  margin: 0;
+}
+div.step > picture {
+  margin: 0 0 0 1em;
+}
+div.step > picture > source, div.step > picture > img {
+  height: 10em;
+  width: 10em;
+  box-shadow: 0.5em 0.5em #000;
+}
+
+div.sticker {
+  flex: 1 1 100% !important;
+}
+
+div.items {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+a.item {
+  flex: 1;
+  padding: 1em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a.item > img {
+  margin: 0 20%;
+  border: 1px #000 solid;
+  box-shadow: 0.5em 0.5em #000;
+}
+
+div.video-overlay {
+  z-index: 10000;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.video-overlay > * {
+  max-width: 100%;
+}
+div.video-overlay > iframe {
+  background-color: #ccc;
+}
+div.video-overlay > p.caption {
+  display: inline-block;
+  margin: 1em 0 0 0;
+  padding: 0.1em 0.2em;
+  white-space: nowrap;
+  background-color: #fff;
+}
+
+div.footer {
+  margin: 0 2em;
+}
+
+@media (max-width: 960px) {
+  div.main > div {
+    flex: 1 1 100%;
+  }
+  div.howto {
+    order: 0;
+  }
+  div.info, div.sticker {
+    order: 1;
+  }
+  div.step {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    padding-bottom: 1em;
+  }
+  div.step > picture {
+    margin: 1em;
+  }
+  div.header {
+    flex-wrap: wrap;
+  }
+  div.menu {
+    margin: 1em 0;
+  }
+}
+@media (max-width: 480px) {
+  a.title {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  a.title > * {
+    flex: 1 1 100%;
+  }
+  div.title-text {
+    display: block;
+    margin-left: 0;
+  }
+  div.title-text > p {
+    font-size: 0.8em;
+  }
+  a.item {
+    flex: 1 1 100%;
+  }
+  div.step {
+    flex-wrap: wrap-reverse;
+  }
+}
