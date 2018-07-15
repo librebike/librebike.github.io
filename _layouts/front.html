@@ -40,9 +40,9 @@
           <a href="#sticker">{{ site.locales[locale].menu.sticker }}</a>
           <div class="lang">
             <span>{{ site.locales[locale].menu.lang }}:</span>
-            <a href="/en">en</a>,
-            <a href="/de">de</a>,
-            <a href="/it">it</a>
+            <a href="/en/">en</a>,
+            <a href="/de/">de</a>,
+            <a href="/it/">it</a>
           </div>
         </div>
       </div>
@@ -167,7 +167,7 @@
 var availLang = ['en','de','it']
 var userLang = (navigator.language || navigator.userLanguage).split('-')[0]
 if (window.location.pathname === '/' && availLang.find(function(lang) { return userLang === lang })) {
-  window.location.href = '/' + userLang
+  window.location.href = '/' + userLang + '/'
 }
 
 var videoContainer = document.querySelector('a.video-container')
