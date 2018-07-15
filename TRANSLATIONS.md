@@ -8,12 +8,12 @@ If you know how to use Git, please clone this repository – otherwise, download
 
 ## 2. Duplicate the English texts
 
-Open the file you just downloaded (if you cloned the repo, it's ```config.yml```) and copy everything from line 2 to 46 (that's all lines in English language). Then paste them to the very end of the same file.
+Open the file you just downloaded (if you cloned the repo, it's ```_config.yml```) and copy everything from line 2 to 46 (that's all lines in English language). Then paste them to the very end of the same file.
 
 ## 3. Make the translations
 
-Translate everything in the section that you just pasted into the file. If you find HTML tags (e.g <a href="…"></a>), please do *not* change anything inside them.
+Translate everything in the section that you just pasted into the file. If you find HTML tags (e.g ```<a href="…">Visible Text</a>```), please *only* change the visible text.
 
 ## 4. Send us the translations
 
-Once you're ready, send us the translated file via e-mail to librebike <AT> protonmail <DOT> com or make a pull request in this repository. We will take care of the rest. Thanks again!
+Once you're ready, send us the translated file via e-mail to ```librebike <AT> protonmail <DOT> com``` or make a pull request in this repository. We will take care of the rest. Thanks again!
