@@ -89,3 +89,48 @@ locales:
       onesided: Rahmen-Sticker einseitig (A4)
       small: Kleine Aufkleber (A4)
     license: Alle LibreBike Materialen inkl. dieser Website und aller selbstgemachten Inhalte darauf sind unter der <a href="https://github.com/librebike/librebike.github.io/blob/master/LICENSE" target="_blank">GNU General Public License v3.0</a> lizensiert. Klick' <a href="https://github.com/librebike/librebike.github.io/blob/master/TRANSLATIONS.md">hier</a>, um mitzuhelfen diese Seite zu übersetzen. <a href="https://github.com/librebike/librebike.github.io" target="_blank">Quellcode</a>.
+  it:
+    menu:
+      info: Informazioni
+      howto: Istruzioni
+      sticker: Adesivi
+      lang: Lingua
+    info:
+      title: Cos'è LibreBike?
+      text: Ultimamente un'ondata di biciclette gialle provenienti dalla Cina si è abbattuta sulle città di questo pianeta, portando scadenti telai d'acciaio in ogni angolo del mondo. Ma a cosa servono queste bici? Sono qui per migliorare la mobilità delle popolazioni urbane o per monitorarne ogni spostamento? Queste bici saranno usate a lungo e riparate regolarmente, o verranno buttate via appena si romperanno? Abbiamo davvero bisogno di un servizio di bike-sharing privatizzato nelle nostre città?
+      text1: Mentre <a href="https://news.ycombinator.com/item?id=17435020" target="_blank">si accumulano</a> <a href="https://www.tagesspiegel.de/berlin/verkehr-in-berlin-leihfahrradanbieter-obike-meldet-insolvenz-an/22788156.html" target="_blank">gli</a> <a href="https://derstandard.at/2000083096681/Obike-angeblich-vor-Pleite-tausend-herrenlose-Fahrraeder-in-Wien" target="_blank">articoli</a> su oBike, una di queste startup di bike-sharing che sta chiudendo i battenti (portando con sé milioni di depositi pagati dai loro utenti), è importante pensare a un nuovo modo di usare queste biciclette.
+      text2: LibreBike è qui esattamente per questo motivo – per cambiare completamente il modo di pensare al bike-sharing. E se non si dovesse pagare per le biciclette? E se le bici fossero semplicemente dei beni pubblici, utilizzabili da chiunque? La buona notizia è che in soli cinque semplici passaggi qualsiasi oBike può essere trasformata in una LibreBike – una bicicletta per tutti!
+    about:
+      title: A proposito di LibreBike
+      text: LibreBike è un progetto indipendente di alcuni urbanisti anonimi che mira ad aggiungere opzioni di trasporto libere e aperte per le popolazioni urbane. Incoraggiamo <i>te</i> a liberare le biciclette nella tua città per consentire alle persone che ti circondano di utilizzare mezzi di trasporto più sostenibili ed equi.
+      text1: LibreBike si ispira al <a href="https://dangerousminds.net/comments/the_white_bicycle_revolution" target="_blank">"Piano delle bici bianche"</a>, un programma anarchico di trasporto gratuito avviato dal movimento controculturale olandese <i>Provos</i> negli anni '60. Benché questa iniziativa abbia ispirato i consigli comunali di tutto il mondo ad avviare servizi che forniscono  biciclette per uso pubblico, la visione principale per cui delle biciclette fruibili da chiunque, gestite autonomamente e libere di circolare sostituiscano le auto nelle città è lontana dall'essere realizzata. Speriamo che LibreBike possa essere una nuova spinta in questa direzione per ripensare il trasporto urbano.
+    video:
+      caption: <a href="https://vimeo.com/20783245">Bici bianche</a> di <a href="https://vimeo.com/nva">NVA</a> su <a href="https://vimeo.com">Vimeo</a>.
+    howto:
+      borrow:
+        title: Come faccio a usare una LibreBike?
+        step: Basta solo pedalare – nessun lucchetto, nessun monitoraggio, nessuna preoccupazione!
+        disclaimer: "Disclaimer: le LibreBikes sono pensate per essere condivise liberamente con tutti perciò non approviamo il furto di biciclette! Dopo aver preso in prestito un LibreBike per favore: non legare la bicicletta liberata, non romperla e non renderla inaccessibile ad altre persone! Lasciala semplicemente al sicuro in uno spazio pubblico perché la prossima persona la possa usare."
+      liberate:
+        title: Come libero una oBike?
+        step1:
+          title: Rimuovi il pannello solare
+          text: Usa un cacciavite per staccarlo - ci vuole un po 'di forza!
+        step2:
+          title: Fai un buco
+          text: Usa un trapano, un saldatore o qualcos'altro per fare un buco attraverso la plastica. Dovresti riuscire a sentire i bordi del metallo sotto la plastica.
+        step3:
+          title: Apri il lucchetto
+          text: Spingi una bacchetta nel foro, premi delicatamente nell'angolo in alto a destra (l'angolo rivolto verso la barra di metallo) e tira verso l'alto per aprire la leva.
+        step4:
+          title: Rendila permanente
+          text: Inserisci di nuovo la bacchetta nella fessura e rompila, in modo che un pezzo di legno si incagli nel lucchetto. In questo modo nessuno sarà in grado di bloccare di nuovo la bici.
+        step5:
+          title: Dillo a tutti
+          text: Assicurati che la gente possa vedere che questa bici è stata liberata incollando degli adesivi sui suoi loghi. Puoi scaricare gli adesivi di LibreBike <a href="#sticker">qui</a>. Basta stamparli su carta adesiva A4, metterli sopra il telaio della bicicletta e raccontare a tutti i tuoi amici di LibreBike!
+    sticker:
+      title: Adesivi
+      twosided: Adesivo per il telaio a due facciate (A4)
+      onesided: Adesivo per il telaio a una facciata (A4)
+      small: Adesivo piccolo (A4)
+    license: Tutti i materiali di LibreBike incluso questo sito Web e tutti i disegni autoprodotti sono concessi in licenza <a href = "https://github.com/librebike/librebike.github.io/blob/master/LICENSE" target="_blank">GNU General Public License v3.0</a>. Clicca <a href="https://github.com/librebike/librebike.github.io/blob/master/TRANSLATIONS.md">qui</a> per aggiungere traduzioni. <a href="https://github.com/librebike/librebike.github.io" target="_blank">Codice sorgente</a>.
